@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &812440776678208565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 812440776678208567}
+  - component: {fileID: 812440776678208564}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &812440776678208567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812440776678208565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &812440776678208564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812440776678208565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2f1953b9bd03f4792ca69beb210068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Player Jump
+    clip: {fileID: 8300000, guid: 52fe9737f48dd7b44adde6252a54b3ca, type: 3}
+    volume: 0.879
+    pitch: 1.1
+    loop: 0
+    source: {fileID: 0}
+  - name: Player Death
+    clip: {fileID: 8300000, guid: bc32a60a29863a4499726726639bfd9f, type: 3}
+    volume: 0.879
+    pitch: 0.94
+    loop: 0
+    source: {fileID: 0}
+  - name: Player Hurt
+    clip: {fileID: 8300000, guid: 19a9f97d3419f8e4fb4d12770d0a0439, type: 3}
+    volume: 0.623
+    pitch: 0.95
+    loop: 0
+    source: {fileID: 0}
+  - name: Demon Death
+    clip: {fileID: 8300000, guid: ba3db32b0d2aa8443813cdace8c5775d, type: 3}
+    volume: 0.809
+    pitch: 0.87
+    loop: 0
+    source: {fileID: 0}
+  - name: Game Audio
+    clip: {fileID: 8300000, guid: 05b744b571edfe84b9b2060e9689894b, type: 3}
+    volume: 0.07
+    pitch: 0.95
+    loop: 1
+    source: {fileID: 0}
+  - name: Demon Wings
+    clip: {fileID: 8300000, guid: 3fb034adc13c9ac42abcb066f24ab151, type: 3}
+    volume: 0.319
+    pitch: 1.66
+    loop: 1
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: 51c324004caf21240bae0f53689c55e9, type: 3}
+    volume: 0.716
+    pitch: 1.07
+    loop: 0
+    source: {fileID: 0}
+  - name: Player Melee
+    clip: {fileID: 8300000, guid: a2c231c70b76d7c46839fba89565836b, type: 3}
+    volume: 0.619
+    pitch: 1.43
+    loop: 0
+    source: {fileID: 0}
